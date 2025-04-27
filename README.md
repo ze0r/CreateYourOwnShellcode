@@ -1,2 +1,1 @@
-# CreateYourOwnShellcode
-This script used for Create your own shellcode, let you can write your shellcode directly!
+This script used for Create your own shellcode, let you write your shellcode directly!
