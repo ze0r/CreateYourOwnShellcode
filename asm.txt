@@ -1,0 +1,14 @@
+nop
+int     3
+:label_equal
+mov     rbx, rax
+nop
+jmp     label_test_jmp
+mov     rax, 0x1122334455667788
+:label_test_jmp
+nop
+cmp     rax, 0x1122334455667788
+jz      label_equal
+nop
+ret
+nop
