@@ -1,7 +1,5 @@
-import re
 import pyperclip
 from keystone import *
-
 
 def keystone_asm(code, lineNum):
     if (code.startswith('int')):
